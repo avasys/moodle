@@ -588,6 +588,14 @@ $CFG->admin = 'admin';
 //
 //      $CFG->disablelogintoken = true;
 //
+// Document conversion limit
+//
+// How many times the background task should attempt to convert a given attempt
+// before removing it from the queue. Currently this limit is only used by the
+// mod_assign conversion task.
+//
+//      $CFG->conversionattemptlimit = 3;
+//
 //=========================================================================
 // 7. SETTINGS FOR DEVELOPMENT SERVERS - not intended for production use!!!
 //=========================================================================
@@ -865,6 +873,11 @@ $CFG->admin = 'admin';
 // there are no spaces in the path - if necessary copy the files 'gswin32c.exe'
 // and 'gsdll32.dll' to a new folder without a space in the path)
 //      $CFG->pathtogs = '/usr/bin/gs';
+//
+// Path to PHP CLI.
+// Probably something like /usr/bin/php. If you enter this, cron scripts can be
+// executed from admin web interface.
+// $CFG->pathtophp = '';
 //
 // Path to du.
 // Probably something like /usr/bin/du. If you enter this, pages that display
