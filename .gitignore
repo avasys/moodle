@@ -10,6 +10,7 @@
 # See gitignore(5) man page for more details
 #
 /config.php
+/config.php.20190221.old
 /lib/editor/tinymce/extra/tools/temp/
 *~
 *.swp
@@ -36,3 +37,30 @@ composer.phar
 /lib/yuilib/*/*/*-coverage.js
 atlassian-ide-plugin.xml
 /node_modules/
+# Moodle Plugins
+mod/attendance
+mod/kalvidassign/
+mod/kalvidpres/
+mod/kalvidres/
+mod/questionnaire/
+mod/scheduler/
+blocks/analytics_graphs/
+blocks/help_link/
+blocks/kalturamediagallery
+blocks/quickmail/
+question/type/multichoiceset/
+filter/kaltura/
+lib/editor/atto/plugins/count/
+lib/editor/atto/plugins/fontsize/
+lib/editor/atto/plugins/kalturamedia/
+lib/editor/atto/plugins/morebackcolors/
+lib/editor/atto/plugins/morefontcolors/
+lib/editor/tinymce/plugins/kalturamedia/
+course/format/calendar/
+course/format/topcoll/
+report/customsql/
+local/kaltura/
+local/kalturamediagallery/
+local/mymedia/
+local/navigation
+
